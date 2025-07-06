@@ -28,7 +28,7 @@ SOFTWARE.
 #include <iostream>
 #include <functional>
 #include <vector>
-#include "htslib/htslib/hts.h"
+#include "htslib/hts.h"
 #include "htslib/htslib/sam.h"
 #include "align_aux.hpp"
 #include "index.hpp"

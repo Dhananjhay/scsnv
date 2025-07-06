@@ -30,7 +30,7 @@ SOFTWARE.
 #include <sys/stat.h>
 #include "misc.hpp"
 #include <unistd.h>
-#include "htslib/htslib/hts.h"
+#include "htslib/hts.h"
 #include "htslib/htslib/thread_pool.h"
 #include "htslib/htslib/sam.h"
 #include "parallel_hashmap/parallel_hashmap/phmap.h"

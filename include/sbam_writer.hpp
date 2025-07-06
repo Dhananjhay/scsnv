@@ -27,7 +27,7 @@ SOFTWARE.
 #include <cstdlib>
 #include <algorithm>
 #include <cstring>
-#include "htslib/htslib/hts.h"
+#include "htslib/hts.h"
 #include "htslib/htslib/thread_pool.h"
 #include "htslib/htslib/sam.h"
 #include <iostream>

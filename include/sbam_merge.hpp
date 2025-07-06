@@ -29,7 +29,7 @@ SOFTWARE.
 #include <queue>
 #include <tuple>
 #include "misc.hpp"
-#include "htslib/htslib/hts.h"
+#include "htslib/hts.h"
 #include "htslib/htslib/sam.h"
 
 namespace gwsc{

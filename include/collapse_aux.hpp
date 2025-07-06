@@ -27,7 +27,7 @@ SOFTWARE.
 #include <numeric>
 #include <algorithm>
 #include <iostream>
-#include "htslib/htslib/hts.h"
+#include "htslib/hts.h"
 #include "htslib/htslib/sam.h"
 #include "sequence.hpp"
 #include "fasta.hpp"
