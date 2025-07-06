@@ -1,8 +1,6 @@
 cmake_minimum_required (VERSION 3.1)
 project (scsnv C CXX)
 
-find_package(HTSlib REQUIRED)
-
 if (POLICY CMP0025)
   cmake_policy(SET CMP0025 NEW)
 endif ()
@@ -13,12 +11,14 @@ set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -pedantic -Wextra")
 #set(HDF5_USE_STATIC_LIBRARIES ON)
 
+# Manually locate HTSlib from Conda environment
+find_path(HTS_INCLUDE htslib/hts.h)
+message(STATUS "HTS_INCLUDE found at ${HTS_INCLUDE}")
+find_library(HTS_LIBRARY NAMES hts)
 
-set(HTSLIB_INCLUDE_DIRS ${HTSlib_INCLUDE_DIRS})
-set(HTSLIB_LIBRARIES    ${HTSlib_LIBRARIES})
+set(EXTERNAL_DIR "${PROJECT_SOURCE_DIR}/external")
 
-set(HTS_LIBRARY ${HTSLIB_LIBRARIES})
-set(HTS_INCLUDE ${HTSLIB_INCLUDE_DIRS})
+include(ExternalProject)
 
 ExternalProject_Add(bwa
     SOURCE_DIR ${EXTERNAL_DIR}/bwa
