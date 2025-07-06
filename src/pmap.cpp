@@ -31,8 +31,8 @@ SOFTWARE.
 #include "misc.hpp"
 #include <unistd.h>
 #include "htslib/hts.h"
-#include "htslib/htslib/thread_pool.h"
-#include "htslib/htslib/sam.h"
+#include "htslib/thread_pool.h"
+#include "htslib/sam.h"
 #include "parallel_hashmap/parallel_hashmap/phmap.h"
 
 using namespace gwsc;

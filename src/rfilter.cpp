@@ -8,7 +8,7 @@
 #include "sbam_merge.hpp"
 #include "gzstream.hpp"
 #include "parallel_hashmap/parallel_hashmap/phmap.h"
-#include "htslib/htslib/hts_endian.h"
+#include "htslib/hts_endian.h"
 using namespace gwsc;
 
 int main(int argc, char * argv[]){

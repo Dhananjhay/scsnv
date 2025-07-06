@@ -30,7 +30,7 @@ SOFTWARE.
 #include <tuple>
 #include "misc.hpp"
 #include "htslib/hts.h"
-#include "htslib/htslib/sam.h"
+#include "htslib/sam.h"
 
 namespace gwsc{
 

@@ -30,7 +30,7 @@ SOFTWARE.
 #include "tokenizer.hpp"
 #include "sbam_merge.hpp"
 #include "gzstream.hpp"
-#include "htslib/htslib/hts_endian.h"
+#include "htslib/hts_endian.h"
 
 using namespace gwsc;
 

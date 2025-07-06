@@ -28,8 +28,8 @@ SOFTWARE.
 #include <algorithm>
 #include <cstring>
 #include "htslib/hts.h"
-#include "htslib/htslib/thread_pool.h"
-#include "htslib/htslib/sam.h"
+#include "htslib/thread_pool.h"
+#include "htslib/sam.h"
 #include <iostream>
 #include <sstream>
 #include <thread>

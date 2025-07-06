@@ -29,7 +29,7 @@ SOFTWARE.
 #include <functional>
 #include <vector>
 #include "htslib/hts.h"
-#include "htslib/htslib/sam.h"
+#include "htslib/sam.h"
 #include "align_aux.hpp"
 #include "index.hpp"
 

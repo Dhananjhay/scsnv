@@ -28,7 +28,7 @@ SOFTWARE.
 #include <algorithm>
 #include <iostream>
 #include "htslib/hts.h"
-#include "htslib/htslib/sam.h"
+#include "htslib/sam.h"
 #include "sequence.hpp"
 #include "fasta.hpp"
 #include "bam_genes.hpp"

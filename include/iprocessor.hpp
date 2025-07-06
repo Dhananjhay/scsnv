@@ -22,8 +22,8 @@ SOFTWARE.
 */
 
 #include "gzstream.hpp"
-#include "htslib/htslib/hts_endian.h"
-#include "htslib/htslib/sam.h"
+#include "htslib/hts_endian.h"
+#include "htslib/sam.h"
 #include "index.hpp"
 #include "reader.hpp"
 #include "parallel_hashmap/parallel_hashmap/phmap.h"
